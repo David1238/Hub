@@ -352,3 +352,12 @@ tab2.newButton("RAYX", function()
 end)
 
 mainGUI.openTab(tab1);
+
+-----------------------------
+local tab3 = mainGUI.newTab("Scripts");
+tab3.newTitle("Scripts");
+tab3.newDiv();
+
+tab3.newButton("Vhub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Quan8008/V-Hub/Master/Launch-Screen.lua"))()
+end)
